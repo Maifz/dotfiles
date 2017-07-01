@@ -17,3 +17,5 @@ if [ ! -d "${HOME}/.config/i3" ]; then
         mkdir -p "${HOME}/.config/i3"
 fi
 ln -sf "${MY_PATH}/i3/config" "${HOME}/.config/i3/config"
+
+ln -sf "${MY_PATH}/i3/i3blocks.conf" "${HOME}/.config/i3/i3blocks.conf"
