@@ -13,3 +13,7 @@ ln -sf "${MY_PATH}/sublime/Preferences.sublime-settings" "${HOME}/.config/sublim
 
 ln -sf "${MY_PATH}/sublime/Package Control.sublime-settings" "${HOME}/.config/sublime-text-3/Packages/User/Package Control.sublime-settings"
 
+if [ ! -d "${HOME}/.config/i3" ]; then
+        mkdir -p "${HOME}/.config/i3"
+fi
+ln -sf "${MY_PATH}/i3/config" "${HOME}/.config/i3/config"
