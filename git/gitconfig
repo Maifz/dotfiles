@@ -1,0 +1,18 @@
+[user]
+	email = maifzqt@gmail.com
+	name = Maifz
+[push]
+	default = simple
+[pull]
+	#When pulling do not create a merge commit.
+	ff = only
+[merge]
+	# No fast forward merge
+	ff = false
+[alias]
+
+	# Uncommit previous 'git commit'
+
+	# Files are still there and you will have
+	# to stage them again.
+	uncommit = reset HEAD~1 --mixed

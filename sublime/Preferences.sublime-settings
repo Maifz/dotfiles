@@ -1,0 +1,12 @@
+{
+	"color_scheme": "Packages/Theme - Asphalt/Asphalt.tmTheme",
+	"draw_white_space": "all",
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"theme": "Asphalt-green.sublime-theme"
+}
