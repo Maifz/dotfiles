@@ -21,3 +21,17 @@ ln -sf "${MY_PATH}/i3/config" "${HOME}/.config/i3/config"
 ln -sf "${MY_PATH}/i3/i3blocks.conf" "${HOME}/.config/i3/i3blocks.conf"
 
 ln -sf "${MY_PATH}/i3/autostart.sh" "${HOME}/.config/i3/autostart.sh"
+
+if [ ! -d "${HOME}/.config/Xresources.d" ]; then
+	mkdir -p "${HOME}/.config/Xresources.d"
+fi
+
+ln -sf "${MY_PATH}/X/resources/colors.xresources" "${HOME}/.config/Xresources.d/colors.xresources"
+
+ln -sf "${MY_PATH}/X/resources/fonts.xresources" "${HOME}/.config/Xresources.d/fonts.xresources"
+
+ln -sf "${MY_PATH}/X/resources/rofi.xresources" "${HOME}/.config/Xresources.d/rofi.xresources"
+
+ln -sf "${MY_PATH}/X/resources/urxvt.xresources" "${HOME}/.config/Xresources.d/urxvt.xresources"
+
+ln -sf "${MY_PATH}/X/resources/xft.xresources" "${HOME}/.config/Xresources.d/xft.xresources"

@@ -1,0 +1,68 @@
+!!-------------------------------------------------------------------------------
+!! Rofi
+!!-------------------------------------------------------------------------------
+!
+!!----------------------------------------
+!! Rofi Font
+!!----------------------------------------
+!rofi.font:					Liberation Mono for Powerline 20
+!!----------------------------------------
+!! Rofi Colors
+!!----------------------------------------
+rofi.location:          0
+rofi.color-enabled:     true
+!                       'background', 'border'
+rofi.color-window:      argb:dc111111, argb:dc111111
+! State:                'bg',          'fg',   'bgalt',       'hlbg',        'hlfg'
+rofi.color-normal:      argb:00333333, #ffffff, argb:00333333, argb:00333333, argb:ffefa211
+rofi.color-urgent:      argb:00333333, #ffffff, argb:00333333, argb:00333333, argb:ffefa211
+rofi.color-active:      argb:00333333, #ffffff, argb:00333333, argb:00333333, argb:ffefa211
+rofi.separator-style:   dash
+rofi.fullscreen:        true
+!rofi.padding:           130
+rofi.hide-scrollbar:    true
+rofi.line-margin:       5
+rofi.fake-transparency: false
+rofi.yoffset:           0
+rofi.xoffset:           0
+rofi.width:             1366
+rofi.opacity:           90
+!rofi.font:             	Terminess (TTF) Nerd Font Complete Mono
+!!----------------------------------------
+!! Rofi Appearance
+!!----------------------------------------
+!rofi.hide-scrollbar:		true
+!rofi.separator-style:		none
+
+
+
+!rofi.lines: 8
+!rofi.eh: 2
+!rofi.width: 100
+rofi.padding: 100
+!rofi.opacity: 85
+!rofi.bw: 0
+!rofi.bc: #2f343f
+!rofi.bg: #2f343f
+!rofi.fg: #f3f4f5
+!rofi.hlbg: #2f343f
+!rofi.hlfg: #9575cd
+!rofi.font: System San Francisco Display 18
+
+
+!!----------------------------------------
+!! Rofi Keys
+!!----------------------------------------
+!
+!! Delete word backwords
+rofi.kb-remove-word-back:	Control+w
+!
+!! Move words with Ctrl+arrow
+rofi.kb-move-word-back:		Control+Left
+rofi.kb-move-word-forward:	Control+Right
+!
+!! Auto-completion
+rofi.kb-row-select:			Tab
+rofi.kb-row-tab:			
+!
+!! vim: ff=unix ft=xdefaults ts=4 ss=4 noet

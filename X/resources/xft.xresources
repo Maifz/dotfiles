@@ -1,0 +1,23 @@
+!-------------------------------------------------------------------------------
+! Xft settings
+!-------------------------------------------------------------------------------
+
+!Xft*dpi:		96
+!Xft.dpi:		270
+
+
+! Use this one here (180)
+!Xft.dpi:		180
+!Xft.dpi:		184
+!Xft.dpi:		192
+Xft.dpi:		96
+
+Xft*antialias:	true
+Xft*rgba:		rgb
+Xft*hinting:	true
+Xft*hintstyle:	hintfull
+Xft*lcdfilter:	lcddefault
+
+Xcursor.theme:	openzone
+
+! vim: ff=unix ft=xdefaults ts=4 ss=4 noet
